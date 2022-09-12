@@ -1,5 +1,8 @@
 # 3_crie_seu_hamburguer
 
+Seja Bem vindo(a).
+Este sistema foi desenvolvido através de VueJs e JSON server
+
 ## Project setup
 ```
 npm install
