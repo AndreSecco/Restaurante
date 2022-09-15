@@ -103,10 +103,9 @@ export default {
             const dataJson = JSON.stringify(data);
 
             //Inserindo no relatório
-
-            const reqRel = await fetch("http:localhost:3000/relatorio-burgers",{
-              method: 'POST',
-              headers:{ "Content-Type": "application/json"},
+            const reqRel = await fetch("http://localhost:3000/relatorio-burgers",{
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
               body: dataJson
             })
 
@@ -124,14 +123,16 @@ export default {
             //Exibir Mensagem
             this.msg = `Obrigado ${res.nome} seu pedido está a caminho - N° ${res.id}`
 
+            
+            //Limpa mensagem
+            setTimeout(() => this.msg ='', 3500)
+
             //Limpar os campos
             this.nome = "";
             this.pao = "";
             this.carne = "";
             this.opcionais = [];
 
-            //Limpa mensagem
-            setTimeout(() => this.msg ='', 3500)
         }
     },
     mounted() {

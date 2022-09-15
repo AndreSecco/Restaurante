@@ -81,25 +81,106 @@
     {
       "nome": "Andre Secco",
       "pao": "Parmesão e Orégano",
-      "carne": "Veggie burger",
+      "carne": "Maminha",
       "adicionais": [
         "Salame",
         "Pepino"
       ],
       "status": "Aguardando",
       "id": 1
-    },
+    }
+  ],
+  "relatorio-burgers": [
     {
       "nome": "Andre Secco",
       "pao": "3 Queijos",
-      "carne": "Veggie burger",
+      "carne": "Picanha",
       "adicionais": [
         "Cheddar",
         "Cebola roxa"
       ],
       "status": "Aguardando",
+      "id": 1
+    },
+    {
+      "nome": "Mikael Kauan",
+      "pao": "Parmesão e Orégano",
+      "carne": "Picanha",
+      "adicionais": [
+        "Salame",
+        "Cheddar",
+        "Cebola roxa"
+      ],
+      "status": "Aguardando",
       "id": 2
+    },
+    {
+      "nome": "Figueiró Secco",
+      "pao": "3 Queijos",
+      "carne": "Picanha",
+      "adicionais": [
+        "Cheddar",
+        "Cebola roxa",
+        "Salame"
+      ],
+      "status": "Aguardando",
+      "id": 3
+    },
+    {
+      "nome": "Andre Secco",
+      "pao": "Italiano Branco",
+      "carne": "Alcatra",
+      "adicionais": [
+        "Pepino",
+        "Salame"
+      ],
+      "status": "Aguardando",
+      "id": 4
+    },
+    {
+      "nome": "Andre Secco",
+      "pao": "Parmesão e Orégano",
+      "carne": "Maminha",
+      "adicionais": [
+        "Bacon",
+        "Cebola roxa"
+      ],
+      "status": "Aguardando",
+      "id": 5
+    },
+    {
+      "nome": "Mikael Kauan",
+      "pao": "3 Queijos",
+      "carne": "Veggie burger",
+      "adicionais": [
+        "Tomate",
+        "Cebola roxa",
+        "Pepino"
+      ],
+      "status": "Aguardando",
+      "id": 6
+    },
+    {
+      "nome": "Mikael Kauan",
+      "pao": "Italiano Branco",
+      "carne": "Veggie burger",
+      "adicionais": [
+        "Salame",
+        "Pepino"
+      ],
+      "status": "Aguardando",
+      "id": 7
+    },
+    {
+      "nome": "Andre Secco",
+      "pao": "Parmesão e Orégano",
+      "carne": "Maminha",
+      "adicionais": [
+        "Salame",
+        "Pepino"
+      ],
+      "status": "Aguardando",
+      "id": 8
     }
-  ],
-  "relatorio-burgers": []
+  ]
 }

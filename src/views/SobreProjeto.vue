@@ -36,6 +36,14 @@
         </div>
       </div>
     </div>
+    <div class="col-12">
+      <p class="mt-5 subtitulo-sobre">
+        O conceito de Orientação a Objetos, S.O.L.I.D e o Design Patterns(Factory) foi utilizado neste projeto, <br />
+        Tornando a construção mais ágil e com uma estruturá sólida de fácil manutenção. <br />
+        Faça hambúrguers, veja relatórios e divirta-se<br />
+        <a href="https://wa.me/5549998100407" target="_blank" class="btn btn-enviar mt-5">Entrar em contato</a>
+      </p>
+    </div>
   </div>
 </template>
 <script>

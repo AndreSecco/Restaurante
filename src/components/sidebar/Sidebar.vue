@@ -32,7 +32,7 @@
     <SidebarLink to="/sobre-projeto" icon="fas fa-file"
       >Sobre Projeto</SidebarLink
     >
-    <SidebarLink to="/sobre-autor" icon="fas fa-user">Sobre Autor</SidebarLink>
+    <!-- <SidebarLink to="/sobre-autor" icon="fas fa-user">Sobre Autor</SidebarLink> -->
 
     <p v-show="!collapsed" class="menu-estatico">Pedidos</p>
     <SidebarLink to="/pedidos" icon="fas fa-burger">Pedidos</SidebarLink>

@@ -42,6 +42,11 @@ const routes = [
     name: 'Ingredientes',
     component: () => import( '../views/relatorios/Ingredientes.vue')
   },
+  {
+    path: '/Painel',
+    name: 'Painel',
+    component: () => import( '../views/pedidos/Painel.vue')
+  },
 ]
 
 const router = createRouter({
