@@ -85,7 +85,7 @@ export default {
   },
   methods: {
     async getIngredientes() {
-      const req = await fetch("http://localhost:3000/ingredientes");
+      const req = await fetch("https://my-json-server.typicode.com/AndreSecco/db_restaurante/ingredientes");
       const data = await req.json();
       this.paes = data.paes;
       this.carnes = data.carnes;
@@ -103,14 +103,14 @@ export default {
       const dataJson = JSON.stringify(data);
 
       //Inserindo no relatório
-      const reqRel = await fetch("http://localhost:3000/relatorio-burgers", {
+      const reqRel = await fetch("https://my-json-server.typicode.com/AndreSecco/db_restaurante/relatorio-burgers", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: dataJson,
       });
 
       //Inserindo na tabela de hamburgers
-      const req = await fetch("http://localhost:3000/burgers", {
+      const req = await fetch("https://my-json-server.typicode.com/AndreSecco/db_restaurante/burgers", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: dataJson,

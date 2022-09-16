@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     async getHamburgers() {
-      const req = await fetch("http://localhost:3000/relatorio-burgers");
+      const req = await fetch("https://my-json-server.typicode.com/AndreSecco/db_restaurante/relatorio-burgers");
       const data = await req.json();
       this.pedidos = data;
       console.log(data);
