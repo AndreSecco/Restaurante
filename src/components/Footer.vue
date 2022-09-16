@@ -8,9 +8,9 @@ import { sidebarWidth } from "@/components/sidebar/state";
 
 export default {
   name: "Footer",
-  setup(){
-    return {sidebarWidth}
-  }
+  setup() {
+    return { sidebarWidth };
+  },
 };
 </script>
 <style>
@@ -18,5 +18,12 @@ export default {
   bottom: 0;
   position: absolute;
   left: 31%;
+}
+@media screen and (max-width: 920px) {
+  .footer {
+    width: 217px;
+    margin-left: 0px!important;
+    display: none;
+  }
 }
 </style>

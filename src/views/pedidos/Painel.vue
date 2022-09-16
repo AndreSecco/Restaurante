@@ -30,7 +30,7 @@
               class="row"
               style="align-items: center; width: 100%; margin-left: 0px"
             >
-              <div class="col-8">
+              <div class="col-12 col-sm-8">
                 <select
                   name="selectStatus"
                   id="selectStatus"
@@ -47,7 +47,7 @@
                   </option>
                 </select>
               </div>
-              <div class="col-4">
+              <div class="col-12 col-sm-4">
                 <button class="btnCancelar" @click="deleteBurger(pedido.id)">
                   Cancelar
                 </button>
@@ -150,5 +150,10 @@ export default {
 .tablePrincipal {
   width: 80%;
   border: 1px solid #f2f2f2;
+}
+@media screen and (max-width: 920px){
+  .divRelatorio{
+    margin-left: 70px;
+  }
 }
 </style>

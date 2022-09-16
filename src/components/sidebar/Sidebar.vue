@@ -41,11 +41,11 @@
     >
 
     <p v-show="!collapsed"  class="menu-estatico">Relatórios</p>
-    <SidebarLink to="/clientes" icon="fas fa-user">Clientes</SidebarLink>
+    <!-- <SidebarLink to="/clientes" icon="fas fa-user">Clientes</SidebarLink> -->
     <SidebarLink to="/hamburguers" icon="fas fa-burger">Hambúrguers</SidebarLink>
-    <SidebarLink to="/ingredientes" icon="fas fa-bacon" 
+    <!-- <SidebarLink to="/ingredientes" icon="fas fa-bacon" 
       >Ingredientes</SidebarLink
-    >
+    > -->
     <div v-if="collapsed" class="col-3">
       <span
         class="collapse-icon"
@@ -170,4 +170,10 @@ export default {
 .col-social{
     margin-right: 3%;
 }
+@media screen and (max-width: 920px) {
+  .sidebar{
+    height: 100vh;
+  }
+}
+
 </style>

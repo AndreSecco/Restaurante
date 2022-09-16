@@ -13,15 +13,20 @@ export default {
   <template>
   <div>
     <Sidebar />
-    <div :style="{ 'margin-left': sidebarWidth }">
+    <div id="principal" :style="{ 'margin-left': sidebarWidth }">
       <Nav />
-      <router-view />
+      <router-view style="max-height: 100vh; overflow-x: auto;" />
       <Footer />
     </div>
   </div>
 </template>
   
   <style>
+@media screen and (max-width: 920px) {
+  #principal{
+    margin-left: 70px!important;
+  }
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

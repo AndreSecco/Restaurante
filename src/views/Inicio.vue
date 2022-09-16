@@ -68,4 +68,11 @@ export default {
   color: #fff;
   padding: 12px 42px;
 }
+
+@media screen and (max-width: 920px){
+  .body-inicial{
+    text-align: justify;
+    margin: 11%;
+  }
+}
 </style>

@@ -81,9 +81,11 @@
     {
       "nome": "Andre Secco",
       "pao": "Parmesão e Orégano",
-      "carne": "Maminha",
+      "carne": "Alcatra",
       "adicionais": [
+        "Cheddar",
         "Salame",
+        "Tomate",
         "Pepino"
       ],
       "status": "Aguardando",
@@ -181,6 +183,29 @@
       ],
       "status": "Aguardando",
       "id": 8
+    },
+    {
+      "nome": "Janete",
+      "pao": "Italiano Branco",
+      "carne": "Maminha",
+      "adicionais": [
+        "Cebola roxa"
+      ],
+      "status": "Aguardando",
+      "id": 9
+    },
+    {
+      "nome": "Andre Secco",
+      "pao": "Parmesão e Orégano",
+      "carne": "Alcatra",
+      "adicionais": [
+        "Cheddar",
+        "Salame",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Aguardando",
+      "id": 10
     }
   ]
 }
